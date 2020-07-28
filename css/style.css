@@ -1,0 +1,39 @@
+h1{
+text-align: center;
+padding:5px;
+margin:20px;
+
+}
+
+.table-example{
+  font-size: 1em;
+  text-align: center;
+  width: 80%;
+  padding:10px;
+  margin-top: 2em;
+  font-style: oblique;
+  color: antiquewhite;
+
+}
+
+.table-example tbody tr:hover{
+  border-bottom:2px solid red;
+  text-align: center;
+  font-style: italic;
+  font-family: serif;
+  font-weight: bolder;
+  background-color:lightpink;
+  color: black;
+
+}
+
+.table-example thead tr{
+  background-color: darkred;
+  color: white;
+}
+.table-example tfoot tr{
+  background-color:darkgoldenrod;
+}
+.table-example tbody tr{
+  background-color: darkslateblue;
+}
