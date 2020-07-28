@@ -16,7 +16,7 @@ margin:20px;
 
 }
 
-.table-example tbody tr:hover{
+.table-example tbody td:hover{
   border-bottom:2px solid red;
   text-align: center;
   font-style: italic;
@@ -36,4 +36,45 @@ margin:20px;
 }
 .table-example tbody tr{
   background-color: darkslateblue;
+}
+
+.topmenu > ul > li {
+
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  border-right:1px solid darkred;
+  background-color:white;
+  color: crimson
+
+
+}
+.topmenu >ul > li> a:hover{
+  text-decoration:none;
+  font-style: italic;
+  background-color:  deepskyblue;
+  color: whitesmoke;
+
+}
+.topmenu > ul > li> a:visited{
+  text-decoration: none!important;
+  color: darkred;
+}
+
+.positionexample{
+  border: 2px solid palevioletred;
+  border-radius:5px;
+  position: fixed;/* this is fixed*/
+  bottom: 0;
+  font-size:15px;
+  font-family: sans-serif;
+  color:  gold;
+  font-style: italic;
+  right: 0;
+  width:25%;
+  background-color: black;
+  
+
 }
